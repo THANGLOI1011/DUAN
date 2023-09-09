@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    border-color: black;
+}
+td{
+    text-align: center;
+}
+td input{
+    text-align: center;
+    padding: 2px 0;
+    outline: none;
+}
+.stt{
+    width: 80px;
+}
+.vo{
+    width: 80px;
+}
+.value input{
+    width: 100%;
+    height: 100%;
+}
+.header h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.value{
+    width: 100%;
+    height: 33px;
+}
+.btn{
+    width: 10%;
+    height: 20px;
+    color: black;
+    font-size: 15px;
+    float: right;
+}
+input{
+    width: 100%;
+    height: 100%;
+    caret-color: red;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    font-weight: 550;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.bang{
+    margin-right: 10px;
+}
+.btn:hover{
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+.btnflex{
+    display: flex;
+    float: right;
+}
+#b{
+    cursor: none;
+}
+/* reponsive */
+@media only screen and (max-width:739px) {
+   .stt{
+    width: 20px;
+   }
+   .value{
+    height: 37px;
+   }
+   .btn{
+    width: 150px;;
+   }
+   .btnflex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-left: 10%;
+   }
+}
