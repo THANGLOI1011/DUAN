@@ -33,6 +33,9 @@ function Reset(){
     document.getElementById("kq15").value = null;
     document.getElementById("kq16").value = null;
     document.getElementById("kq17").value = null;
+    document.getElementById("kq18").value = null;
+    document.getElementById("kq19").value = null;
+    
     document.getElementById("log").innerText= "";
 }
 // 
@@ -55,9 +58,11 @@ function Bang(){
     var a15 =document.getElementById("15").value;
     var a16 =document.getElementById("16").value;
     var a17 =document.getElementById("17").value;
+    var a18 =document.getElementById("18").value;
+    var a19 =document.getElementById("19").value;
 
     kq1 = parseFloat(a1) - 89;
-    kq2 = parseFloat(a2) - 89;
+    kq2 = parseFloat(a2) - 0;
     kq3 = parseFloat(a3) -89;
     kq4 = parseFloat(a4) - 89;
     kq5 = parseFloat(a5) - 39;
@@ -73,8 +78,10 @@ function Bang(){
     kq15 = parseFloat(a15) - 43;
     kq16 = parseFloat(a16) - 50;
     kq17 = parseFloat(a17) - 50;
-    check(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,
-        kq1,kq2,kq3,kq4,kq5,kq6,kq7,kq8,kq9,kq10,kq11,kq12,kq13,kq14,kq15,kq16,kq17)
+    kq18 = parseFloat(a18) - 312;
+    kq19 = parseFloat(a19) - 139;
+    check(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,
+        kq1,kq2,kq3,kq4,kq5,kq6,kq7,kq8,kq9,kq10,kq11,kq12,kq13,kq14,kq15,kq16,kq17,kq18,kq19)
 }
 function check(a,b,c){
         // c là giá trị số
@@ -96,6 +103,8 @@ function check(a,b,c){
             document.getElementById("kq15").value = kq15;
             document.getElementById("kq16").value = kq16;
             document.getElementById("kq17").value = kq17;
+            document.getElementById("kq18").value = kq18;
+            document.getElementById("kq19").value = kq19;
             
 
             document.getElementById("log").innerText="";
