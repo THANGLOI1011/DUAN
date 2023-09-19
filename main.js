@@ -67,8 +67,8 @@ function Bang(){
     kq4 = parseFloat(a4) - 89;
     kq5 = parseFloat(a5) - 39;
     kq6 = parseFloat(a6) - 108;
-    kq7 = parseFloat(a7) - 137;
-    kq8 = parseFloat(a8) - 137;
+    kq7 = parseFloat(a7) - 108;
+    kq8 = parseFloat(a8) - 108;
     kq9 = parseFloat(a9) - 180;
     kq10 = parseFloat(a10) - 180;
     kq11 = parseFloat(a11) - 50;
@@ -79,7 +79,7 @@ function Bang(){
     kq16 = parseFloat(a16) - 50;
     kq17 = parseFloat(a17) - 50;
     kq18 = parseFloat(a18) - 312;
-    kq19 = parseFloat(a19) - 139;
+    kq19 = parseFloat(a19) - 108;
     check(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,
         kq1,kq2,kq3,kq4,kq5,kq6,kq7,kq8,kq9,kq10,kq11,kq12,kq13,kq14,kq15,kq16,kq17,kq18,kq19)
 }
